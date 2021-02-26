@@ -5,13 +5,13 @@ public class binarySearch {
 
     public static void main(String[] args) {
         List<Integer> list = new ArrayList<>();
-        list.add(0, 1);
-        list.add(1, 3);
-        list.add(2, 5);
-        list.add(3, 7);
-        list.add(4, 9);
+        list.add(1);
+        list.add(3);
+        list.add(5);
+        list.add(7);
+        list.add(9);
 
-        int item = 3;
+        int item = 5;
 
         System.out.println("Этот элемент по счёту: " + methodBinarySearch(list, item));
 
