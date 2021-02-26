@@ -11,7 +11,7 @@ public class binarySearch {
         list.add(3, 7);
         list.add(4, 9);
 
-        int item = 7;
+        int item = 3;
 
         System.out.println("Этот элемент по счёту: " + methodBinarySearch(list, item));
 
