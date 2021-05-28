@@ -4,8 +4,6 @@ import java.util.List;
 public class SortingbyChoise {
 
     public static void main(String[] args) {
-//        System.out.println("Несортированный список" + unsortedList());
-//        System.out.println("Отсортированный список" + selectionSort(unsortedList()));
 
         ArrayList<Integer> unsorted = new ArrayList<>();
         unsorted.add(10);
@@ -22,13 +20,13 @@ public class SortingbyChoise {
         System.out.println("Сортированный список" + selectionSort(unsorted));
     }
 
-    private static ArrayList<Integer> unsortedList() {
-        ArrayList<Integer> unsortedList = new ArrayList<>();
-        for (int i = 0; i < 10; i++) {
-            unsortedList.add((int) (Math.random() * 11));
-        }
-        return unsortedList;
-    }
+//    private static ArrayList<Integer> unsortedList() {
+//        ArrayList<Integer> unsortedList = new ArrayList<>();
+//        for (int i = 0; i < 10; i++) {
+//            unsortedList.add((int) (Math.random() * 11));
+//        }
+//        return unsortedList;
+//    }
 
 
     private static int findSmallest(ArrayList<Integer> list) {
